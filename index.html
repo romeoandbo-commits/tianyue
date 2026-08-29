@@ -53,6 +53,15 @@
 @media(max-width:900px){.guide-head,.guide-layout{grid-template-columns:1fr}.guide-offers{grid-template-columns:1fr}.guide-badge{justify-self:start}}
 @media(max-width:620px){.okx-guide{padding:76px 0}.guide-steps,.guide-shot{padding:21px}.guide-step{grid-template-columns:36px 1fr}.guide-no{width:36px;height:36px}.guide-actions{flex-direction:column}.guide-actions a{justify-content:center;text-align:center}}
 </style>
+<style>
+.guide-register{display:flex;justify-content:space-between;align-items:center;gap:22px;margin:0 0 24px;padding:24px 26px;border-radius:20px;background:linear-gradient(120deg,#0a1e38,#123f70);color:#fff}
+.guide-register h3{margin:0 0 4px;font-size:23px}.guide-register p{margin:0;color:#c6d9ec}.guide-register .primary{white-space:nowrap}
+.guide-toc{margin:0 0 24px;padding:25px 28px;border:1px solid var(--line);border-radius:20px;background:#fff}
+.guide-toc h3{margin:0 0 13px}.guide-toc ol{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 28px;margin:0;padding-left:22px;color:var(--muted)}
+.guide-toc a:hover{color:var(--blue)}
+.guide-more{margin-top:24px;display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.guide-info{padding:26px;border:1px solid var(--line);border-radius:20px;background:#fff}.guide-info h3{margin:0 0 10px}.guide-info p,.guide-info li{color:var(--muted);font-size:14px}.guide-info ul{margin:0;padding-left:19px}
+@media(max-width:700px){.guide-register{align-items:stretch;flex-direction:column}.guide-toc ol,.guide-more{grid-template-columns:1fr}.guide-register .primary{text-align:center}}
+</style>
 </head>
 <body>
   <header class="nav">
@@ -187,18 +196,33 @@
 </div>
 <div class="guide-badge">邀请码 · XIAOLUO</div>
 </div>
-<div class="guide-offers">
-<article class="guide-offer"><b>最高 20%</b><span>符合活动规则时可享专属手续费奖励，具体比例以注册页面及 OKX 实际规则为准</span></article>
-<article class="guide-offer"><b>最高 2,000U</b><span>金牌讲师首月跟单护航为限额、附条件活动，须通过资格审核</span></article>
-<article class="guide-offer"><b>资金自持</b><span>账户与资产由用户本人管理，切勿向任何人透露密码或验证码</span></article>
+<div class="guide-register">
+<div><h3>🚀 立即注册欧易</h3><p>通过邀请码链接注册，符合活动条件可享 20% 手续费返现及当期新人盲盒福利。</p></div>
+<a class="primary" href="https://www.topzhjdgxcb.com/join/XIAOLUO" target="_blank" rel="noopener noreferrer">使用邀请码 XIAOLUO 注册</a>
 </div>
-<div class="guide-layout">
+<nav class="guide-toc" aria-label="欧易注册教程目录">
+<h3>📖 教程目录</h3>
+<ol>
+<li><a href="#okx-process">欧易 OKX 详细注册流程</a></li>
+<li><a href="#okx-after">注册完成后需进行的操作</a></li>
+<li><a href="#okx-rebate">欧易邀请码与返佣介绍</a></li>
+<li><a href="#okx-more">更多关于欧易的信息</a></li>
+<li><a href="#okx-history">欧易的历史与发展</a></li>
+<li><a href="#okx-review">对欧易的客观评价</a></li>
+</ol>
+</nav>
+<div class="guide-offers" id="okx-rebate">
+<article class="guide-offer"><b>20% 手续费返现</b><span>通过专属链接注册且符合规则，可享手续费返现；比例、适用交易与结算周期以 OKX 页面和账户记录为准</span></article>
+<article class="guide-offer"><b>180 天召回资格</b><span>已有账户且连续 180 天未登录，可通过专属链接查看召回返佣资格；最终以 OKX 系统识别为准</span></article>
+<article class="guide-offer"><b>最高 2,000 USDT</b><span>新人可申请金牌讲师带团护航；三个月目标收益 15%，未达到且符合全部规则时可申请限额补偿</span></article>
+</div>
+<div class="guide-layout" id="okx-process">
 <div class="guide-steps">
 <div class="guide-step"><span class="guide-no">01</span><div><h3>打开天悦专属注册链接</h3><p>点击下方“立即注册 OKX”，进入注册页面并核对网址。不要通过陌生人发送的非官方页面填写账号信息。</p></div></div>
 <div class="guide-step"><span class="guide-no">02</span><div><h3>填写常用邮箱</h3><p>输入本人可正常接收验证码的邮箱。该邮箱将用于登录、安全验证与重要通知。</p></div></div>
 <div class="guide-step"><span class="guide-no">03</span><div><h3>确认邀请码</h3><p>展开“邀请码（选填）”，确认显示以下专属邀请码：</p><span class="guide-code">XIAOLUO</span></div></div>
 <div class="guide-step"><span class="guide-no">04</span><div><h3>完成验证码与密码设置</h3><p>按页面提示完成邮箱验证码验证并设置高强度密码。验证码、密码和助记词不得提供给任何人。</p></div></div>
-<div class="guide-step"><span class="guide-no">05</span><div><h3>下载 App 并完成身份认证</h3><p>注册后通过 OKX 官方渠道下载 App，按照所在地区及平台要求完成身份认证与安全设置。</p></div></div>
+<div class="guide-step" id="okx-after"><span class="guide-no">05</span><div><h3>下载 App 并完成身份认证</h3><p>注册后通过 OKX 官方渠道下载 App，按照所在地区及平台要求完成身份认证与安全设置。</p></div></div>
 <div class="guide-step"><span class="guide-no">06</span><div><h3>咨询跟单护航资格</h3><p>准备参与跟单前，先了解适用条件、仓位范围、30 天周期、盈利分润及失去资格的情形。</p></div></div>
 </div>
 <aside class="guide-shot">
@@ -213,7 +237,13 @@ WRtFS526a8T6lNlCPTVnEUlyCMBanFq/tS7V3ZsYdmfr/W3t3RngrL4oEFKoRIAdxcr0Nl3c8paCKZ5D
 </div>
 </aside>
 </div>
-<p class="guide-risk"><strong>风险提示：</strong>数字资产价格波动较大，可能造成本金损失。“最高 20%”及“最高 2,000U”均不代表保证获得，实际奖励、返佣比例、适用地区及资格条件以 OKX 注册页面、活动审核和最终规则为准。请根据自身风险承受能力谨慎参与。</p>
+<div class="guide-more" id="okx-more">
+<article class="guide-info"><h3>更多关于欧易的信息</h3><p>OKX 提供现货、衍生品、Web3 钱包等产品。具体服务、资产和功能会因用户所在地区及账户资格而不同，请以官方 App 和页面显示为准。</p></article>
+<article class="guide-info" id="okx-history"><h3>欧易的历史与发展</h3><p>OKX 是较早进入数字资产行业的交易平台之一，产品已由交易服务扩展至钱包及 Web3 工具。平台名称、功能与合规安排会持续调整，注册前应查看最新官方信息。</p></article>
+<article class="guide-info" id="okx-review"><h3>对欧易的客观评价</h3><ul><li>优势：产品种类较完整，交易与 Web3 工具整合度较高。</li><li>注意：数字资产市场波动大，不同地区的可用功能与监管要求不同。</li><li>安全：建议启用双重验证、防钓鱼码和提现白名单，并独立保管登录凭证。</li></ul></article>
+<article class="guide-info"><h3>新人盲盒与活动资格</h3><p>新人盲盒属于阶段性活动，并非所有用户或地区均可获得。奖励内容、领取门槛、有效期和发放方式以注册时 OKX 活动页面显示为准。</p></article>
+</div>
+<p class="guide-risk"><strong>风险提示：</strong>数字资产价格波动较大，可能造成本金损失。20% 手续费返现、新人盲盒、召回资格及最高 2,000 USDT 补偿均须满足相应活动条件；“三个月目标收益 15%”不构成无条件收益承诺。补偿范围、计算方式、申请材料、适用地区及资格审核以书面活动规则和最终审核结果为准。账户必须由本人实名注册和使用，请勿借用他人身份开户。</p>
 </div>
 </section>
     <section class="campaign" id="campaign">
